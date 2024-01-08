@@ -1,0 +1,89 @@
+body{
+    background-color: #19a1ae;
+	min-height: 100dvh;
+	font-family: 'Kumbh Sans', sans-serif;
+	line-height: 1.24;
+	background-image: url(../bg-pattern-top.svg),
+    url(../bg-pattern-bottom.svg);
+	background-repeat: no-repeat;
+	background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+}
+hr{
+   margin-top: 50px;
+}
+.main-box{
+    width: 350px;
+    height: 350px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+.heading-img{
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    width: 100%;
+    
+}
+.img-vic{
+    border-radius: 50%;
+    position: absolute;
+    left: 120px;
+    top: 90px;
+    width: 27%;
+  border-style: solid;
+    border-color: white;
+}
+.Name{
+text-align: center;
+position: relative;
+top:30px ;
+font-family: "Kumbh Sans";
+font-weight: bold;
+}
+.city{
+    margin-left: 40%;
+  position: relative;top: 20px;
+  color:rgb(125, 126, 126) ;
+}
+
+
+.span{
+    color: rgb(125, 126, 126);
+    font-weight: 500;
+}
+.big{
+    font-weight: bold;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 0.8fr;
+    margin-left: 40px;
+    gap: 7px;
+   
+}
+.k{
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 1.1rem;
+    
+}
+.kk{
+   padding-right: 9px;
+   position: relative; right: 7px;
+}
+.f{
+    color: rgb(125, 126, 126) ;
+    font-size: 0.8rem;
+    padding-right: 10px;
+}
+
+@media(max-width : 1028px){ 
+    .main-box{
+   position: absolute;left: 11vh; 
+          
+      }
+         
+}
+    
